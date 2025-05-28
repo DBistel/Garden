@@ -75,7 +75,11 @@
 
 }
 
-
 #level-6{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-auto-columns: minmax(5rem, auto);
+    grid-auto-rows: minmax(5rem, auto);
+    
     
 }
